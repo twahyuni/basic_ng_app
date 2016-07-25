@@ -1,0 +1,53 @@
+.container {
+  margin: 0 auto;
+  padding: 0 12.5% 0 12.5%;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+section {
+  border-top: 2px solid lightgrey;
+  padding-bottom: 22px;
+}
+
+.artwork {
+  max-width: 852px;
+}
+
+.artwork-artist {
+  text-align: right;
+}
+
+.carousel {
+  height: 456px;
+  overflow: hidden;
+}
+
+.artwork-slide {
+  float: right;
+}
+
+.clearfix {
+  clear:right;
+}
+
+.donation-box {
+  width: 120px;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid lightgrey;
+}
+
+.donation-box:hover {
+    background-color: lightgrey;
+}
+
+.donor > .row {
+  padding: 0 5px 0 5px;
+  margin: 0 auto;
+}
